@@ -1,0 +1,182 @@
+/* entire page margins and wallpaper */
+body, html {
+    margin: 0;
+    height:100%;
+    background-image: url("https://images.designtrends.com/wp-content/uploads/2016/12/22183254/White-Concrete-Wall-Texture.jpg");
+}
+
+/* sticky footer */
+.content {
+    min-height: 100%;
+    margin-bottom: -68px;
+}
+
+.push { 
+    height: 68px;
+}
+
+/* toolbar sizing*/
+    header {
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-top: solid 2px #dddddd;
+    border-bottom: solid 3px #dddddd;
+    float: left;
+    width: 100%;
+    height: 80px;
+}
+
+/* margins for toolbar & page content */
+.wrapper {
+    margin: auto;
+    width: 960px;
+    margin-bottom: -80px;
+}
+
+/* name perameters */
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 442px;
+    margin-bottom: 0px;
+    padding: 27px;
+    font-size: 26px;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    float: left;
+}
+
+/* navigating the site buttons on toolbar */
+.nav {
+    float: left;
+    color: #777777;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 30px 0px 0px 35px;
+}
+
+/* box around box 2 header */
+#box2header {
+    width: 650px;
+    height: 100%;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    float: left;
+}
+
+/* box 2 header perameters*/
+h2 {
+    margin: 0 0 0 10px;
+    background-color: #ffffff;
+    color: #4aaaa5;
+    text-align: left;
+    width: 590px;
+    height: 30px;
+    padding: 25px;
+    font-size: 24px;
+    font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+/* box 2 content perameters */
+#box2main {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 590px;
+    height: 100%;
+    border-top: solid 2px #dddddd;
+    padding-top: 30px;
+    overflow: auto;
+}
+
+/* image placement */
+img {
+    float: left;
+    margin-right: 22px;
+    margin-bottom: 8px;
+}
+
+/* paragraph perameters */
+.bio {
+    color: #777777;
+    font-size: 14px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 0px;
+}
+
+/* box 3 entire box - perameters */
+#connectwithme {
+    float: left;
+    margin-top: 30px;
+    background-color: #ffffff;
+    width: 270px;
+    height: 220px;
+}
+
+/* box 3 header perameters */
+h3 {
+    float: left;
+    background-color: #ffffff;
+    color: hsl(177, 39%, 48%);
+    text-align: left;
+    margin-top: 0px;
+    width: 220px;
+    height: 30px;
+    padding: 25px;
+    font-size: 20px;
+    font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+/* box 3 content perameters */
+#icon-box {
+    padding: 10px;
+    float: left;
+    width: 200px;
+    height: 115px;
+    border-top: 2px solid #dddddd;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 25px;
+  
+}
+
+/* box 3 icon perameters */
+.icons {
+height: 50px;
+width: 50px;
+margin-top: 10px;
+margin-right: 20px;
+margin-left: -10px;
+border: 1px solid #ffffff;
+}
+
+/* stck icon adjustments */
+#stack {
+    height: 45px;
+    width: 45px;
+    margin-top: 13px;
+    margin-right: 20px;
+    margin-left: -8px;
+    border: 1px solid #ffffff;
+    }
+
+/* icons when cursor hovering */
+.icons:hover, #stack:hover {
+    border: 3px solid #ffffff
+}
+
+/* footer */
+footer {
+    background-color: #666666;
+    color: #e0dede;
+    padding: 26px;
+    text-align: center;
+    clear: both;
+    font-size: 9px;
+    margin-bottom: 0;
+    border-top: 8px solid #4aaaa5;
+}
