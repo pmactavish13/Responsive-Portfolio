@@ -5,119 +5,86 @@
 <head>
     <meta charset="UTF-8">
     <title>Homework 1 </title>
+
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/stylecontact.css">
     
 </head>
 <body>
-
-<!-- for sticky footer -->
-<div class="content">
-
-<!-- title bar -->    
-    <header>
-
-<!--  wrapper for page content -->        
-        <div class="wrapper">
-
-<!-- title bar name -->            
-            <h1>Paula MacTavish</h1>   
+    
+<!-- title bar -->
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Paula MacTavish</a>  
 
 <!-- title bar navigation to other areas of portfolio -->
             <nav>
-                <div class="nav">
-                    About<a href="target_blank"></a>
-                    </div>   
-                <div class="nav">
-                    Portfolio<a href="target_blank"></a>
-                    </div>
-                <div class="nav">
-                    Contact<a href="target_blank"></a>
-                    </div>
+                <a href="index.html">About</a>                    
+                <a href="portfolio.html">Portfolio</a>               
+                <a href="contact.html">Contact</a>
             </nav>
         </div>
     </header> 
 
-    <br>
+<!-- container -->
+    <div id="main-container" class="container">
+<!-- main content -->
+    <section class="main-container">
 
-<!--  wrapper for page content -->
-        <div class="wrapper">
-
-<!-- second box - entire area -->           
-            <section id="box2header">
-
-<!-- second box header -->                
-                <h2>Contact</h2>
-
-<!--  second box entire content -->
-                <div id="box2main">
+<!-- main content header -->
+                <h1>Contact</h1>
 
 <!-- contact form -->
-                    <form class="form">
+<form id="contact-form">
+    <ul>
+                <!--  enter name -->
+        <li>       
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+        </li> 
+                <!-- enter email -->
+        <li>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
+        </li>
+                <!-- enter text -->
+        <li>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" required="required"></textarea>
+         </li>
+    </ul>
+        <!-- submit button -->
+    <input type="submit" name="Submit">
+</form>
 
-<!--  enter name -->
-                        <p class="name">
-                            <label for="name">Name</label>
-                            <br>
-                            <input type="text" name="name" id="name" placeholder="John Smith">
-                        </p>
- 
- <!-- enter email -->
-                        <p class="email">
-                            <label for="email">Email</label>
-                            <br>
-                            <input type="text" name="email" id="email" placeholder="example@gmail.com">
-                        </p>
+</section>
 
-<!-- enter text -->
-                        <p class="message">
-                            <label for="message">Message</label>
-                            <br>
-                            <textarea name="message" id="message"></textarea>
-                        </p>
+<!-- Icon box -->
 
-<!-- submit button -->
-                        <p class="submit">
-                            <input type="submit" value="Submit">
-                        </p>
-                    </form>
-                </div>
+    <section class="sidebar">
+        <div id="connect">
+            <h2>Connect With Me</h2>
+
+<!-- icons -->
                 
-            </section>
-
-<!--  third box entire -->
-            <section id="connectwithme">
-
-<!--  third box header -->
-                    <h3>Connect With Me</h3>
- 
- <!-- third box content  -->
-                        <div id="icon-box">
+            <a href="https://github.com" target="_blank">
+                <img class="social" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_square_black-128.png" alt="GitHub"></a>
                         
- <!-- third box icons -->
-                            <a href="https://github.com" target="_blank">
-                                <img class="icons" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_square_black-128.png" alt="GitHub"></a>
+            <a href="https://linkedin.com" target="_blank">
+                <img class="social" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_color-128.png" alt="LinkedIn"></a>
                         
-                            <a href="https://linkedin.com" target="_blank">
-                                <img class="icons" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_square_color-128.png" alt="LinkedIn"></a>
-                        
-                            <a href="https://slack.com" target="_blank"> 
-                            <img class="icons" id="stack" src="https://cdn3.iconfinder.com/data/icons/inficons/128/stackoverflow.png" alt="StackOverflow"></a>
+            <a href="https://stackoverflow.com" target="_blank"> 
+                <img class="social1" src="https://cdn3.iconfinder.com/data/icons/inficons/128/stackoverflow.png" alt="StackOverflow"></a>
                       
-                    </div>       
-            </section>
-        
-        </div>
+        </div>       
+    </section>
 
-     <!-- for sticky footer -->
-     <div class="push"></div>
-
-    </div>
-
-    <!-- footer -->
+</div>
+<!--  footer -->
     <footer>
-        Copyright @ 2018 Paula MacTavish
+        <div class="container">
+            Copyright @ 2018 Paula MacTavish
+        </div>
     </footer>
 
 </body>
